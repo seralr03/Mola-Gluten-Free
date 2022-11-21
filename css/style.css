@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+html{
+    background-color: #F5F1EA;
+}
+
+/* --- Header ---*/
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5596B4;
+    padding: 30px 20px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+   
+}
+
+
+header nav ul{
+    display: flex;
+    gap: 30px;
+}   
+
+
+    
+/* --- Comienzo del Main --- */
+
+
+main{
+    padding: 50px;
+    margin: 30px;
+}
+
+
+section h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+section p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.boxes-a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.boxes-a article{
+    width: 35%;
+}
+
+.boxes-a .img-boxes-a{
+    width: 35%;
+}
+
+.img-boxes-a img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.desayunos-b{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.desayunos-b article{
+    width: 35%;
+}
+
+.desayunos-b .img-desayunos-b{
+    width: 30%;
+}
+
+.img-desayunos-b img{
+    width: 100%;
+    height: 100%;
+
+}
+  /* ---Comienzo del footer--- */
+
+  footer{
+    background-color: #5596B4;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+
+/* Arreglos a otros HTML */
+
+
+/* Arreglo de la pagina como funciona */
+.funcionamiento{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.pasos{
+    margin-top: 60px;
+    margin-left: 15px;
+}
+
+.pasos ul li{
+    font-size: 1.2rem;
+}
+
+/* Arreglo de la pagina Boxes */
+.boxes-c{
+    margin-top: 10px;
+       
+}
+
+.cajas-c p{
+    padding-bottom: 30px;
+}
+
+/* Arreglo de la pagina Desayunos y Boxes */
+
+h2{
+    margin-top: 10px;
+}
+
+h3{
+    margin-top: 20px;
+}
