@@ -130,21 +130,111 @@ section p{
 }
 
 /* Arreglo de la pagina Boxes */
-section .contenedor-boxes{
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 5;
-    
-       
+
+.lemon-pie{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.lemon-pie article{
+    width: 45%;
+}
+
+.lemon-pie .img-lemon-pie{
+    width: 25%;
+
+}
+
+.img-lemon-pie img{
+    width: 100%;
+    height: 100%;
 }
 
 
+.risotto{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+}
 
-.cajas-c p{
-    padding-bottom: 30px;
+.risotto article{
+    width: 45%;
+}
 
+.risotto .img-risotto{
+    width: 25%;
 
+}
+
+.img-risotto img{
+    width: 100%;
+    height: 100%;
+}
+
+.pan-de-nuez{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.pan-de-nuez article{
+    width: 45%;
+}
+
+.pan-de-nuez .img-pan-de-nuez{
+    width: 25%;
+
+}
+
+.img-pan-de-nuez img{
+    width: 100%;
+    height: 100%;
+}
+
+.tarta-de-cebolla{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.tarta-de-cebolla article{
+    width: 45%;
+}
+
+.tarta-de-cebolla .img-tarta-de-cebolla{
+    width: 25%;
+
+}
+
+.tarta-de-cebolla img{
+    width: 100%;
+    height: 100%;
+}
+
+.pasta-frola{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.pasta-frola article{
+    width: 45%;
+}
+
+.pasta-frola .img-pasta-frola{
+    width: 25%;
+
+}
+
+.img-pasta-frola img{
+    width: 100%;
+    height: 100%;
 }
 
 /* Arreglo de la pagina Desayunos y Boxes */
