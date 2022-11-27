@@ -130,13 +130,21 @@ section p{
 }
 
 /* Arreglo de la pagina Boxes */
-.boxes-c{
+section .contenedor-boxes{
     margin-top: 10px;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 5;
+    
        
 }
 
+
+
 .cajas-c p{
     padding-bottom: 30px;
+
+
 }
 
 /* Arreglo de la pagina Desayunos y Boxes */
