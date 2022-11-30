@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Mola</title>
 </head>
@@ -12,7 +13,7 @@
 
     <!-- Comienza del header -->
     
-    <header>
+    <!-- <header>
         <h1>Desayunos</h1>
    
         <nav>
@@ -23,53 +24,114 @@
                 <li><a href="./contacto.html">Contacto</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
 
+
+
+    <header class="navbar navbar-expand-lg" class="">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="">
+            <h1>Desayunos</h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Volver al Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./boxes.html">Boxes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./como-funciona.html">Como Funciona</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      
     <!-- Cominezo del main -->
 
     
     <main>
+
+        <section class="container">
+            
         
-        <h2>Nuestras opciones de Desayunos son:</h2>
+            <article>
+        
+                <h2>Nuestras opciones son:</h2>
 
-            <ul>
-                <li>Yendo</li>
-                <li>Si a todo</li>
-                <li>Tamos ready</li>
-            </ul>
+             </article>
 
-        <h3>Yendo</h3>
-             <ul>
-                <li>2 alfajores de maicena</li>
-                <li>1 brownie</li>
-                <li>2 scones</li>
-                <li>1 sandwich de pan de nuéz</li>
-                <li>2 medialunas</li>
-                <li>2 cookies</li>
-             </ul>
-
-         <h3>Si a todo</h3>
-             <ul>
-                <li>2 alfajores de maicena</li>
-                <li>1 brownie</li>
-                <li>2 scones</li>
-                <li>1 sandwich de pan de nuéz</li>
-                <li>2 medialunas</li>
-                <li>2 cookies</li>
-                <li>1 alfajor salchichon</li>
-                <li>1 mini cake</li>
-             </ul>        
+            <div class="row">
 
 
-        <h3>Tamos ready</h3>
-        <ul>
-            <li>Yogur con granola</li>
-            <li>Frutas</li>
-            <li>Barra de cereal</li>
-            <li>2 cookie de avena</li>
-            <li>2 alfajores fit</li>
-        </ul>
-             
+             <article class="col-12">
+
+                <h3>Yendo</h3>
+                <!-- <ul>
+                    <li>2 alfajores de maicena</li>
+                    <li>1 brownie</li>
+                    <li>2 scones</li>
+                    <li>1 sandwich de pan de nuéz</li>
+                    <li>2 medialunas</li>
+                    <li>2 cookies</li>
+                </ul> -->
+
+                <div class="">
+                    <img src="" alt="">               
+                 </div>
+
+             </article>
+
+            
+             <article class="col-12">
+
+                <h3>Si a todo</h3>
+                    <!-- <ul>
+                        <li>2 alfajores de maicena</li>
+                        <li>1 brownie</li>
+                        <li>2 scones</li>
+                        <li>1 sandwich de pan de nuéz</li>
+                        <li>2 medialunas</li>
+                        <li>2 cookies</li>
+                        <li>1 alfajor salchichon</li>
+                        <li>1 mini cake</li>
+                    </ul>         -->
+
+                    <div class="">
+                        <img src="" alt="">               
+                     </div>
+
+            </article>
+
+
+            <article class="col-12">
+
+                <h3>Tamos ready</h3>
+                <!-- <ul>
+                    <li>Yogur con granola</li>
+                    <li>Frutas</li>
+                    <li>Barra de cereal</li>
+                    <li>2 cookie de avena</li>
+                    <li>2 alfajores fit</li>
+                </ul>
+                    -->
+                    <div class="">
+                        <img src="" alt="">               
+                     </div>
+
+             </article>
+
+            </div>
+        </section>
+
     </main>
 
     <!-- Comienzo del footer -->
@@ -82,6 +144,6 @@
     </footer>
 
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>

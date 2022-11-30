@@ -23,23 +23,23 @@ font-family: 'Noto Sans JP', sans-serif; */
 /* --- Header ---*/
 
 header{
-    
-    display: flex;
+
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     background-color: #5596B4;
-    padding: 30px 20px;
-    font-size: 25px;
+    /* padding: 30px 20px; */
+    font-size: 20px;
     font-family: 'Boogaloo', cursive;
-   
+
 }
 
 
-header nav ul{
+/* header nav ul{
     display: flex;
     gap: 30px;
 
-}   
+} */
 
 header h1{
     animation-name: mover-texto;
@@ -54,15 +54,15 @@ header h1{
 }
 
 25%{
-    transform: translate(80px);
+    transform: translate(50px);
 }
 
 50%{
-    transform: translate(160px);
+    transform: translate(100px);
 }
 
 75%{
-    transform: translate(240px);
+    transform: translate(150px);
 }
 
 100%{
@@ -74,7 +74,7 @@ header h1{
 
 
 
-    
+
 /* --- Comienzo del Main y arreglos en el index --- */
 
 
@@ -289,6 +289,10 @@ section p{
 }
 
 /* Arreglo en la pagina Desayunos */
+
+
+
+
 
 
 
