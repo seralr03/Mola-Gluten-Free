@@ -300,4 +300,36 @@ h3{
     margin-top: 20px;
 }
 
+section article h2{
+    animation-name: mover-texto;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+}
+
+@keyframes mover-texto{
+
+0%{
+    transform: translate(0px);
+}
+
+25%{
+    transform: translate(70px);
+}
+
+50%{
+    transform: translate(140px);
+}
+
+75%{
+    transform: translate(210px);
+}
+
+100%{
+    transform: translate(0px);
+}
+
+
+}
+
 /* Arreglo en contactos */
