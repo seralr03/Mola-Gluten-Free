@@ -293,13 +293,13 @@ section p{
 
 h2{
     margin-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 h3{
     margin-top: 20px;
 }
-
+/* 
 section article h2{
     animation-name: mover-texto;
     animation-duration: 5s;
@@ -327,9 +327,9 @@ section article h2{
 
 100%{
     transform: translate(0px);
-}
+} */
 
 
-}
+/* } */
 
 /* Arreglo en contactos */
