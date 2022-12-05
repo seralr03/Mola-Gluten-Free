@@ -13,8 +13,8 @@ ul,ol{
     list-style: none;
 }
 
-html{
-    background-color: #F5F1EA;
+body{
+    background-image: url(../img/fondo-mola.png);
 }
 
 /* font-family: 'Boogaloo', cursive;
