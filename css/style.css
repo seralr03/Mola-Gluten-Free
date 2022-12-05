@@ -14,7 +14,7 @@ ul,ol{
 }
 
 html{
-    background-color: #F5F1EA;
+    background-image: url(../img/fondo-mola.png);
 }
 
 /* font-family: 'Boogaloo', cursive;
@@ -22,24 +22,13 @@ font-family: 'Noto Sans JP', sans-serif; */
 
 /* --- Header ---*/
 
-header{
-
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
-    background-color: #5596B4;
-    /* padding: 30px 20px; */
+header{    
+    background-color: #5596B4; 
     font-size: 20px;
     font-family: 'Boogaloo', cursive;
 
 }
 
-
-/* header nav ul{
-    display: flex;
-    gap: 30px;
-
-} */
 
 header h1{
     animation-name: mover-texto;
@@ -179,10 +168,12 @@ section p{
 h2{
     margin-top: 10px;
     padding-bottom: 20px;
+    color: #ED5B42;
 }
 
 h3{
     margin-top: 20px;
+    color: #ED5B42;
 }
 
 
