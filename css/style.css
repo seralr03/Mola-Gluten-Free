@@ -66,11 +66,11 @@ header h1{
 
 /* --- Comienzo del Main y arreglos en el index --- */
 
-
+/* 
 main{
     padding: 50px;
     margin: 30px;
-}
+} */
 
 
 section h2{
@@ -172,7 +172,7 @@ h2{
 }
 
 h3{
-    margin-top: 20px;
+    margin-top: 10px;
     color: #ED5B42;
 }
 
