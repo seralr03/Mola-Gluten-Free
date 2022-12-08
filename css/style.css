@@ -85,6 +85,18 @@ section p{
     margin-bottom: 40px;
 }
 
+.img_1{
+    object-fit: cover;
+}
+
+.img_2{
+    object-fit: cover;
+}
+
+.img_3{
+    object-fit: cover;
+}
+
 /* .boxes-a{
     display: flex;
     align-items: center;
