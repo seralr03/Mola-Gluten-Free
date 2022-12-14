@@ -1,0 +1,38 @@
+header{    
+    background-color: #5596B4; 
+    font-size: 20px;
+    font-family: 'Boogaloo', cursive;
+
+}
+
+
+header h1{
+    animation-name: mover-texto;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes mover-texto{
+
+0%{
+    transform: translate(0px);
+}
+
+25%{
+    transform: translate(50px);
+}
+
+50%{
+    transform: translate(100px);
+}
+
+75%{
+    transform: translate(150px);
+}
+
+100%{
+    transform: translate(0px);
+}
+
+
+}
