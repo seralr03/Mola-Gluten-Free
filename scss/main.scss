@@ -1,17 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "./utils/mixins.scss";
+@import "./utils/variables.scss";
 
-a{
-    text-decoration: none;
-    color: black;
-}
+@import "./base/base.scss";
+@import "./components/footer.scss";
+@import "./components/header.scss";
+@import "./components/navbar.scss";
 
-ul,ol{
-    list-style: none;
-}
- body{
-    background-image: url(../img/fondo-mola.png);
- }
+@import "./pages/boxes.scss";
+@import "./pages/como-funciona.scss";
+@import "./pages/contacto.scss";
+@import "./pages/desayunos.scss";
