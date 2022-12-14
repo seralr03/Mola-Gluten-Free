@@ -120,6 +120,8 @@ section p{
 }
 
 
+
+
 .desayunos-b{
     display: flex;
     align-items: center;
@@ -194,4 +196,9 @@ h3{
 
 .color-negro{
     color: black;
+}
+
+.producto1__precio{
+    border-radius: solid;
+    
 }
