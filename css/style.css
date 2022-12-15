@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-image: url(../img/fondo-mola.png);
+}
+
+section h2 {
+  font-family: "Boogaloo", cursive;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-top: 10px;
+  padding-bottom: 20px;
+  color: #ED5B42;
+}
+
+h3 {
+  margin-top: 10px;
+  color: #ED5B42;
+  font-family: "Boogaloo", cursive;
+}
+
+footer {
+  background-color: #5596B4;
+  text-align: center;
+}
+
+header {
+  background-color: #5596B4;
+  font-size: 20px;
+  font-family: "Boogaloo", cursive;
+}
+
+header h1 {
+  animation-name: mover-texto;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes mover-texto {
+  0% {
+    transform: translate(0px);
+  }
+  25% {
+    transform: translate(50px);
+  }
+  50% {
+    transform: translate(100px);
+  }
+  75% {
+    transform: translate(150px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
