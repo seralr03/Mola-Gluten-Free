@@ -6,11 +6,13 @@
 
 ul{
     list-style: none;
-    
-    a{
-        text-decoration: none;
-        color: black;
-    }
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
 }
 
  body{
@@ -38,5 +40,19 @@ ul{
 h3{
     margin-top: 10px;
     color: $color;
-    font-family: 'Boogaloo', cursive;
+    font-family: $tipo-letra;
+}
+span{
+    color: black;
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #5596B4;
+}
+
+span:hover{
+    font-size: 18px;
+    font-weight: 700;
+    background-color: $color;
+    transition: 0.3s;
 }

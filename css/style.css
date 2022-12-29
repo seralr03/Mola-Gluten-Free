@@ -7,7 +7,8 @@
 ul {
   list-style: none;
 }
-ul a {
+
+a {
   text-decoration: none;
   color: black;
 }
@@ -40,9 +41,33 @@ h3 {
   font-family: "Boogaloo", cursive;
 }
 
+span {
+  color: black;
+  font-size: 17px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #5596B4;
+}
+
+span:hover {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #ED5B42;
+  transition: 0.3s;
+}
+
 footer {
   background-color: #5596B4;
   text-align: center;
+}
+
+a i:hover {
+  border: 2px solid;
+  border-radius: 10px;
+  font-size: 30px;
+  color: black;
+  padding: 5px;
+  transition: 0.2s;
 }
 
 header {
@@ -73,6 +98,59 @@ header h1 {
   100% {
     transform: translate(0px);
   }
+}
+li a:hover {
+  border: 1px solid;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  transition: 0.3s;
+}
+
+button {
+  color: black;
+  font-size: 17px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #5596B4;
+}
+
+button:hover {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #ED5B42;
+  transition: 0.3s;
+}
+
+button {
+  color: black;
+  font-size: 17px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #5596B4;
+}
+
+button:hover {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #ED5B42;
+  transition: 0.3s;
+}
+
+button {
+  color: black;
+  font-size: 17px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #5596B4;
+}
+
+button:hover {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #ED5B42;
+  transition: 0.3s;
 }
 
 /*# sourceMappingURL=style.css.map */
